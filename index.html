@@ -3,7 +3,7 @@
 
 <head>
     
-    <title>Dacquil Kristine Protfolio</title>
+    <title>Dacquil Kristine</title>
     
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -67,6 +67,21 @@
   .pro{
     text-align: center;
   }
+
+  .banner {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    display: block;
+}
+
+.Dl{
+    border-radius: 20px;
+    border-color: #31ddd2;
+    line-height: 40px;
+    color: #0BCEAF;
+    
+  }
   </style>
 
 
@@ -74,7 +89,7 @@
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
-            <img src="img/Logo3.png" alt="Your Logo" height="100">
+            <img src="img/Logo 4.png" alt="Your Logo" height="100">
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -432,6 +447,7 @@
                 <div class="position-relative overflow-hidden mb-2">
                     <a href="https://ac-coffee.com/">
                     <img class="img-fluid rounded w-100" src="img/AC1.png" alt=""></a>
+                    <p>Developing a website using Worpress way back in 2023.</p>
                     
                     
                 </div>
@@ -440,6 +456,7 @@
                 <div class="position-relative overflow-hidden mb-2">
                     <a href="https://kdacquil.github.io/Hidden-Beauty/">
                     <img class="img-fluid rounded w-100" src="img/P2.png" alt=""></a>
+                    <p>Creating a booking website with integration using Zapier as a bridge.</p>
                     
                 </div>
             </div>
@@ -447,6 +464,7 @@
                 <div class="position-relative overflow-hidden mb-2">
                     <a href="https://kdacquil.github.io/ASI/">
                     <img class="img-fluid rounded w-100" src="img/P3.png" alt=""></a>
+                    <p>Creating a portfolio website and a contact form using Google Forms with the integration of Jira.</p>
                     
                 </div>
             </div>
@@ -516,7 +534,7 @@
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                         
                     <a href="https://drive.google.com/file/d/1HdC7Zomh9LkpLnAuHNSpg0zjS-yuwucJ/view?usp=sharing" download="Resume.pdf">
-                            <button>View and Download</button>
+                            <button class="Dl">View and Download</button>
                         </a>
                     </div>
                 </div>
@@ -528,8 +546,8 @@
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                         
                     <a href="https://drive.google.com/file/d/1bQTTKXbTsCZBE0uNDRBJj2AHjsKJqx-R/view?usp=sharing" download="Resume.pdf">
-                            <button>View and Download</button>
-                        </a>
+                            <button class="Dl">View and Download</button>
+                    </a>
                         
                     </div>
                 </div>
@@ -539,6 +557,58 @@
 </div>
 <!-- Resume End -->
 
+<!-- Contact Start -->
+<div class="container-fluid py-5" id="contact">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="contact-form text-center">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="form-row">
+                            <div class="control-group col-sm-6">
+                                <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                    required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group col-sm-6">
+                                <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                    required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                required="required" data-validation-required-message="Please enter a subject" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                required="required"
+                                data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+<section>
+
+    <img src="img/banner.png" style="width: 100%; height: auto;">
+
+</section>
     <!-- Footer Start -->
     <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="container text-center py-5">
